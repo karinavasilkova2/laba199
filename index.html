@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>JScript</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+<script>
+var mas = ['Добро пожаловать на мою веб-страницу!', 'Хотите ли вы продолжить переход к моей веб-странице?', 1];
+var first = mas[0];
+alert (first);
+
+var second = mas[1];
+alert (second);
+
+mas[2] = 'Подумайте хорошо...';
+alert(mas[2]);
+
+document.write("Число элементов в массиве: " + mas.length);
+
+document.write("</br>");
+document.write("</br>");
+
+var re = /woman/gi;
+var str = 'Every man in the world! Every woman on earth!';
+var newstr = str.replace(re, 'person');
+console.log(newstr);
+
+var re = /man/gi;
+
+var newwstr = newstr.replace(re, 'person');
+console.log(newwstr);
+
+document.write(newwstr);
+
+</script>
+<br>
+    <br>
+<a href="delete.php" onclick="return confirm('Вы уверены?');">Удалить</a>
+    <img  width="550px" height="550px" src="img/e9a505d1d8604f350e9df5b33b551493_w200.gif">
+
+    
+    
+
+
+</body>
+</html>
